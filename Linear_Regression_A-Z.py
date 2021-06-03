@@ -13,7 +13,7 @@ import sklearn
 # In[26]:
 
 
-data=pd.read_csv(r'D:\ML\Machine-Learning-A-Z\Part 2 - Regression\Section 4 - Simple Linear Regression\Salary_Data.csv')
+data=pd.read_csv(Salary_Data.csv')
 
 
 # In[27]:
@@ -124,7 +124,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 # Importing the dataset
-dataset = pd.read_csv(r'D:\ML\Machine-Learning-A-Z\Part 2 - Regression\Section 4 - Simple Linear Regression\Salary_Data.csv')
+dataset = pd.read_csv(Salary_Data.csv')
 X = dataset.iloc[:, :-1].values
 y = dataset.iloc[:, 1].values
 
